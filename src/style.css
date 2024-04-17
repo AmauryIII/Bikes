@@ -1,0 +1,256 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.logo{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(57, 57, 58, 0.836);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 80%;
+    height: 100%;
+}
+
+#submenu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(57, 57, 58);
+    display: flex;
+    justify-content: space-around; 
+}
+
+#submenu a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(180, 185, 190);
+    margin: 20px ;
+    font-size: 20px;
+}
+
+#noticias{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 50px;
+    text-align: center;
+}
+
+.bloco img{
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    
+}
+
+.bloco a{
+    text-decoration: none;
+    border: 1px solid rgb(129, 134, 138);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    align-self: center;
+    margin: 10px;
+    color: rgb(129, 134, 138);
+}
+
+.bloco p{
+    color: rgb(74, 74, 75);
+    margin: 5px;
+}
+
+#agenda{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(219, 219, 221);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#agendaTopo h1{
+    text-align: center;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+#agendaTopo h3{
+    text-align: center;
+    font-weight: 300;
+    color: rgb(74, 74, 75);
+}
+
+#caixa{
+    display: flex;
+    justify-content: center;
+}
+
+#caixa a{
+    margin: 20px;
+    border: 1px solid rgb(129, 134, 138);
+    text-decoration: none;
+    width: 250px;
+    height: 30px;
+    text-align: end;
+    font-weight: bolder;
+    color: rgb(180, 185, 190);
+}
+
+.blocoData{
+    width: 80px;
+    height: 60px;
+    background-color: rgb(57, 57, 58);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.blocoData h3{
+    font-weight: 300;
+    color: rgb(219, 219, 221);
+}
+
+.blocoData h2{
+    font-weight: 300;
+    color: rgb(219, 219, 221);
+}
+
+.agendaDesc{
+    display: flex;
+    justify-content: center;
+}
+
+.dataDesc a{
+    text-decoration: none;
+    color: rgb(180, 185, 190);
+    border: 1px solid rgb(180, 185, 190);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dataDesc p{
+    color: rgb(129, 134, 138);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.dataDesc h3{
+    color: rgb(57, 57, 58);
+}
+
+.data{
+    display: flex;
+    width: 30%;
+    margin: 20px;
+    gap: 10px;
+}
+
+#galeria{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(247, 247, 247);
+}
+
+#galeria h3{
+    text-align: center;
+    font-weight: 300;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(57, 57, 58);
+}
+
+#galeria p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(129, 134, 138);
+}
+
+.imagens{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.imagens img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(57, 57, 58, 0.836);
+    border-radius: 10px;
+}
+
+#newsletter{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+#newsletter h2{
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: rgb(57, 57, 58);
+}
+
+#newsletter p{
+    text-transform: uppercase;
+    color: rgb(129, 134, 138);
+}
+
+#newsletter input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 60%;
+    height: 30px;
+}
+
+#newsletter a{
+    text-decoration: none;
+    background-color: rgb(57, 57, 58);
+    color: rgb(180, 185, 190);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(57, 57, 58, 0.836);
+}
+
+footer p{
+    color: rgba(247, 247, 247, 0.589);
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(180, 185, 190);
+}
+
+#redesSociais img{
+    margin: 5px;
+    max-width: 50px
+}
